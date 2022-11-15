@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+h2 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  font-family: "Josefin Sans", "sans serif";
+}
+
+.tableclass {
+  margin-bottom: 100px;
+  background-color: beige;
+}
+
+#logotitle {
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+#carDetails{
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  font-family: "Josefin Sans", "sans serif";
+}
+  
+  #formDiv {
+    position: relative; 
+    display: inline-block; 
+    max-width: 1000px;
+    min-width: 500px;
+    margin-top: 20px; 
+    box-sizing: border-box;
+  }
+
+  #formDiv2 {
+    position: relative; 
+    display: inline-block; 
+    max-width: 1000px;
+    min-width: 500px;
+    padding-top: 50px; 
+    box-sizing: border-box;
+  }
+
+  #formRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #formRow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

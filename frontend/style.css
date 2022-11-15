@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+body {
+  background-color: #eef1ff;
+  margin: 100px;
+  margin-left: 100px;
+  overflow-x: hidden;
+}
+
+#logotitle {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#carDetails {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+navbar-brand {
+  width: 50%;
+}
+
+#list{
+  font-size: 17px;
+  border-radius: 50px;
+  height: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+#formDiv {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 500px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 40px;
+  translate: -50%, 0;
+}
+
+/* FORM - ADD NEW CAR */
+#formRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#buttonRow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sub {
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 25px 20px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+#sub:hover,
+#sub:focus {
+  color: white;
+  background-color: #b1b2ff;
+}
+
+.question {
+  /* position: relative; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  appearance: none;
+  background-color: none;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 0;
+  font-size: 17px;
+  width: 90%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+input:focus {
+  outline: none;
+  background: #d2daff;
+  color: rgb(0, 0, 0);
+}
+
+#viewTitle {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.thead-dark {
+  background-color: black;
+  color: white;
+}
+
+#select {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 60px;
+  font-size: 17px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list:focus {
+  outline: none;
+  background: #d2daff;
+  color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 640px) {
+  #fomenu-flex {
+    display: grid;
+    margin-bottom: 30px;
+  }
+
+  input[type="text"] {
+    appearance: none;
+    background-color: none;
+    border: 1px solid rgb(0, 0, 0);
+    line-height: 0;
+    font-size: 17px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+  }
+
+  #formDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    min-width: 500px;
+    margin-top: 20px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 40px;
+    /* left: 50%; */
+    translate: -50%, 0;
+  }
+}
