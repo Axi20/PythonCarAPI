@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,39 +7,85 @@
     <title>Delete Car</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="logotitle"><img src="./hatchback-car (1).png" width="10%"/>FairDeal CarRent</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <a class="navbar-brand" href="#" id="logotitle"
+          ><img src="./hatchback-car (1).png" width="10%" />FairDeal CarRent</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="add.html">Add car</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html">View car</a></li>
-            <li class="nav-item"><a class="nav-link" href="update.html">Update car</a></li>    
-            <li class="nav-item"><a class="nav-link" href="delete.html">Delete car</a></li>    
+            <li class="nav-item">
+              <a class="nav-link" href="add.html">Add car</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">View car</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="update.html">Update car</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="delete.html">Delete car</a>
+            </li>
           </ul>
-        </div>  
+        </div>
       </div>
     </nav>
 
-    <div class="row" id="formRow" style="vertical-align: middle; padding-top: 100px;">
+    <div
+      class="row"
+      id="formRow"
+      style="vertical-align: middle; padding-top: 100px"
+    >
       <div class="col-sm-12" id="formDiv">
         <form action="" method="post, get">
           <h1>Delete car</h1>
-          <div class="question"><input type="text" id="RegNumber" name="RegNumber" placeholder="Car registration number" required/></div>
-          <button onclick="deleteRecord()" id="sub" type="submit" value="Submit">Delete</button>
+          <div class="question">
+            <input
+              type="text"
+              id="RegNumber"
+              name="RegNumber"
+              placeholder="Car registration number"
+              required
+            />
+          </div>
+          <button
+            onclick="deleteRecord()"
+            id="sub"
+            type="submit"
+            value="Submit"
+          >
+            Delete
+          </button>
         </form>
       </div>
     </div>
     <script src="./add.js"></script>
+
+    <footer>
+      <p>Copyright FairDeal CarRent - 2022</p>
+    </footer>
   </body>
 </html>
